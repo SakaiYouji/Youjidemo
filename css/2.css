@@ -1,0 +1,423 @@
+#tuisong_1{
+	width:100%;
+	height:850px;
+	background: rgba(251,242,219,0.7);
+	position:absolute;
+	overflow: hidden;
+	float: left;
+    top: 0;
+    z-index: 0;
+}
+.num
+{
+    display: none;
+}
+.left {
+        position:absolute;
+        z-index:10;  
+        display:inline-block;  
+        float: left;   
+        width:10%;height:850px;  
+        line-height:850px;  
+        cursor:pointer;  
+        color:#fff;  
+        text-align:center;
+        font-size: 100px;
+        opacity:0.5;
+}
+
+.right {
+        position:absolute;
+        z-index:10;  
+        display:inline-block;  
+        float: left;   
+        width:10%;height:850px;  
+        line-height:850px;  
+        cursor:pointer;  
+        color:#fff;  
+        text-align:center;
+        font-size: 100px;
+        opacity:0.5;
+	    left:90%;
+}
+#s3 {
+    visibility: hidden;
+}
+#s4 {
+    visibility: hidden;
+}
+#s5 {
+    visibility: hidden;
+}
+#s6 {
+    visibility: hidden;
+}
+#s0 {
+    visibility: hidden;
+}
+#sx {
+    visibility: hidden;
+}
+#s7 {
+    visibility: hidden;
+}
+#s8 {
+    visibility: hidden;
+}
+
+#a1:checked ~ #zong {
+    animation:a1 1s linear forwards;
+    -moz-animation:a1 1s linear forwards;
+    -webkit-animation:a1 1s linear forwards;
+    -o-animation:a1 1s linear forwards;
+    -ms-animation:a1 1s linear forwards;
+}
+#a2:checked ~ #zong {
+    animation:a2 1s linear forwards;
+    -moz-animation:a2 1s linear forwards;
+    -webkit-animation:a2 1s linear forwards;
+    -o-animation:a2 1s linear forwards;
+    -ms-animation:a2 1s linear forwards;
+}
+#a3:checked ~ #zong {
+    animation:a3 1s linear forwards;
+    -moz-animation:a3 1s linear forwards;
+    -webkit-animation:a3 1s linear forwards;
+    -o-animation:a3 1s linear forwards;
+    -ms-animation:a3 1s linear forwards;
+}
+#a4:checked ~ #zong {
+    animation:a4 1s linear forwards;
+    -moz-animation:a4 1s linear forwards;
+    -webkit-animation:a4 1s linear forwards;
+    -o-animation:a4 1s linear forwards;
+    -ms-animation:a4 1s linear forwards;
+}
+#a5:checked ~ #zong {
+    animation:a5 1s linear forwards;
+    -webkit-animation:a5 1s linear forwards;
+    -moz-animation:a5 1s linear forwards;
+    -o-animation:a5 1s linear forwards;
+    -ms-animation:a5 1s linear forwards;
+}
+#a6:checked ~ #zong {
+    animation:a6 1s linear forwards;
+    -moz-animation:a6 1s linear forwards;
+    -webkit-animation:a6 1s linear forwards;
+    -o-animation:a6 1s linear forwards;
+    -ms-animation:a6 1s linear forwards;
+}
+#ax:checked ~ #zong {
+    animation:ax 1s linear forwards;
+    -moz-animation:ax 1s linear forwards;
+    -webkit-animation:ax 1s linear forwards;
+    -o-animation:ax 1s linear forwards;
+    -ms-animation:ax 1s linear forwards;
+}
+#a0:checked ~ #zong {
+    animation:a0 1s linear forwards;
+    -moz-animation:a0 1s linear forwards;
+    -o-animation:a0 1s linear forwards;
+    -ms-animation:a0 1s linear forwards;
+    -webkit-animation:a0 1s linear forwards;
+}
+#a7:checked ~ #zong {
+    animation:a7 1s linear forwards;
+    -moz-animation:a7 1s linear forwards;
+    -o-animation:a7 1s linear forwards;
+    -webkit-animation:a7 1s linear forwards;
+    -ms-animation:a7 1s linear forwards;
+}
+#a8:checked ~ #zong {
+    animation:a8 1s linear forwards;
+    -moz-animation:a8 1s linear forwards;
+    -webkit-animation:a8 1s linear forwards;
+    -o-animation:a8 1s linear forwards;
+    -ms-animation:a8 1s linear forwards;
+}
+
+#a1:checked ~ #s1{visibility: hidden;}
+#a1:checked ~ #s2{visibility: hidden;}
+#a1:checked ~ #sx{visibility: visible;}
+#a1:checked ~ #s0{visibility: visible;}
+
+#a2:checked ~ #s1{visibility: hidden;}
+#a2:checked ~ #s2{visibility: hidden;}
+#a2:checked ~ #s3{visibility: visible;}
+#a2:checked ~ #s4{visibility: visible;}
+
+#a3:checked ~ #s3{visibility: hidden;}
+#a3:checked ~ #s4{visibility: hidden;}
+#a3:checked ~ #s1{visibility: visible;}
+#a3:checked ~ #s2{visibility: visible;}
+
+#a4:checked ~ #s3{visibility: hidden;}
+#a4:checked ~ #s4{visibility: hidden;}
+#a4:checked ~ #s5{visibility: visible;}
+#a4:checked ~ #s6{visibility: visible;}
+
+#ax:checked ~ #sx{visibility: hidden;}
+#ax:checked ~ #s0{visibility: hidden;}
+#ax:checked ~ #s3{visibility: visible;}
+#ax:checked ~ #s4{visibility: visible;}
+
+#a0:checked ~ #sx{visibility: hidden;}
+#a0:checked ~ #s0{visibility: hidden;}
+#a0:checked ~ #s1{visibility: visible;}
+#a0:checked ~ #s2{visibility: visible;}
+
+#a5:checked ~ #s5{visibility: hidden;}
+#a5:checked ~ #s6{visibility: hidden;}
+#a5:checked ~ #s3{visibility: visible;}
+#a5:checked ~ #s4{visibility: visible;}
+
+#a6:checked ~ #s5{visibility: hidden;}
+#a6:checked ~ #s6{visibility: hidden;}
+#a6:checked ~ #s7{visibility: visible;}
+#a6:checked ~ #s8{visibility: visible;}
+
+#a7:checked ~ #s7{visibility: hidden;}
+#a7:checked ~ #s8{visibility: hidden;}
+#a7:checked ~ #s5{visibility: visible;}
+#a7:checked ~ #s6{visibility: visible;}
+
+#a8:checked ~ #s5{visibility: hidden;}
+#a8:checked ~ #s6{visibility: hidden;}
+#a8:checked ~ #s3{visibility: visible;}
+#a8:checked ~ #s4{visibility: visible;}
+
+@keyframes a1 {
+    0% {margin-left: -100%;}
+    100% {margin-left: 0%;}
+}
+@-moz-keyframes a1 {
+    0% {margin-left: -100%;}
+    100% {margin-left: 0%;}
+}
+@-webkit-keyframes a1 {
+    0% {margin-left: -100%;}
+    100% {margin-left: 0%;}
+}
+@-o-keyframes a1 {
+    0% {margin-left: -100%;}
+    100% {margin-left: 0%;}
+}
+@-ms-keyframes a1 {
+    0% {margin-left: -100%;}
+    100% {margin-left: 0%;}
+}
+@-moz-keyframes a1 {
+    0% {margin-left: -100%;}
+    100% {margin-left: 0%;}
+}
+@keyframes a2 {
+    0% {margin-left: -100%;}
+    100% {margin-left: -200%;}
+}
+@-moz-keyframes a2 {
+    0% {margin-left: -100%;}
+    100% {margin-left: -200%;}
+}
+@-webkit-keyframes a2 {
+    0% {margin-left: -100%;}
+    100% {margin-left: -200%;}
+}
+@-o-keyframes a2 {
+    0% {margin-left: -100%;}
+    100% {margin-left: -200%;}
+}
+-ms-keyframes a2 {
+    0% {margin-left: -100%;}
+    100% {margin-left: -200%;}
+}
+@keyframes a3 {
+    0% {margin-left: -200%;}
+    100% {margin-left: -100%;}
+}
+@-moz-keyframes a3 {
+    0% {margin-left: -200%;}
+    100% {margin-left: -100%;}
+}
+@-webkit-keyframes a3 {
+    0% {margin-left: -200%;}
+    100% {margin-left: -100%;}
+}
+@-o-keyframes a3 {
+    0% {margin-left: -200%;}
+    100% {margin-left: -100%;}
+}
+@-ms-keyframes a3 {
+    0% {margin-left: -200%;}
+    100% {margin-left: -100%;}
+}
+@-moz-keyframes a3 {
+    0% {margin-left: -200%;}
+    100% {margin-left: -100%;}
+}
+@-o-keyframes a3 {
+    0% {margin-left: -200%;}
+    100% {margin-left: -100%;}
+}
+@-webkit-keyframes a3 {
+    0% {margin-left: -200%;}
+    100% {margin-left: -100%;}
+}
+@-ms-keyframes a3 {
+    0% {margin-left: -200%;}
+    100% {margin-left: -100%;}
+}
+@keyframes a4 {
+    0% {margin-left: -200%;}
+    100% {margin-left: -300%;}
+}
+@-moz-keyframes a4 {
+    0% {margin-left: -200%;}
+    100% {margin-left: -300%;}
+}
+@-o-keyframes a4 {
+    0% {margin-left: -200%;}
+    100% {margin-left: -300%;}
+}
+@-webkit-keyframes a4 {
+    0% {margin-left: -200%;}
+    100% {margin-left: -300%;}
+}
+@-ms-keyframes a4 {
+    0% {margin-left: -200%;}
+    100% {margin-left: -300%;}
+}
+@keyframes a5 {
+    0% {margin-left: -300%;}
+    100% {margin-left: -200%;}
+}
+@-moz-keyframes a5 {
+    0% {margin-left: -300%;}
+    100% {margin-left: -200%;}
+}
+@-ms-keyframes a5 {
+    0% {margin-left: -300%;}
+    100% {margin-left: -200%;}
+}
+@-o-keyframes a5 {
+    0% {margin-left: -300%;}
+    100% {margin-left: -200%;}
+}
+@-webkit-keyframes a5 {
+    0% {margin-left: -300%;}
+    100% {margin-left: -200%;}
+}
+@keyframes a6 {
+    0% {margin-left: -300%;}
+    100% {margin-left: -400%;}
+}
+@-moz-keyframes a6 {
+    0% {margin-left: -300%;}
+    100% {margin-left: -400%;}
+}
+@-o-keyframes a6 {
+    0% {margin-left: -300%;}
+    100% {margin-left: -400%;}
+}
+@-webkit-keyframes a6 {
+    0% {margin-left: -300%;}
+    100% {margin-left: -400%;}
+}
+@-ms-keyframes a6 {
+    0% {margin-left: -300%;}
+    100% {margin-left: -400%;}
+}
+@keyframes ax {
+    0% {margin-left: -300%;}
+    100% {margin-left: -200%;}
+}
+@-moz-keyframes ax {
+    0% {margin-left: -300%;}
+    100% {margin-left: -200%;}
+}
+@-o-keyframes ax {
+    0% {margin-left: -300%;}
+    100% {margin-left: -200%;}
+}
+@-ms-keyframes ax {
+    0% {margin-left: -300%;}
+    100% {margin-left: -200%;}
+}
+@-webkit-keyframes ax {
+    0% {margin-left: -300%;}
+    100% {margin-left: -200%;}
+}
+@keyframes a0 {
+    0% {margin-left: 0%;}
+    100% {margin-left: -100%;}
+}
+@-moz-keyframes a0 {
+    0% {margin-left: 0%;}
+    100% {margin-left: -100%;}
+}
+@-webkit-keyframes a0 {
+    0% {margin-left: 0%;}
+    100% {margin-left: -100%;}
+}
+@-o-keyframes a0 {
+    0% {margin-left: 0%;}
+    100% {margin-left: -100%;}
+}
+@-ms-keyframes a0 {
+    0% {margin-left: 0%;}
+    100% {margin-left: -100%;}
+}
+@keyframes a7 {
+    0% {margin-left: -400%;}
+    100% {margin-left: -300%;}
+}
+@-moz-keyframes a7 {
+    0% {margin-left: -400%;}
+    100% {margin-left: -300%;}
+}
+@-webkit-keyframes a7 {
+    0% {margin-left: -400%;}
+    100% {margin-left: -300%;}
+}
+@-o-keyframes a7 {
+    0% {margin-left: -400%;}
+    100% {margin-left: -300%;}
+}
+@-ms-keyframes a7 {
+    0% {margin-left: -400%;}
+    100% {margin-left: -300%;}
+}
+@keyframes a8 {
+    0% {margin-left: -100%;}
+    100% {margin-left: -200%;}
+}
+@-moz-keyframes a8 {
+    0% {margin-left: -100%;}
+    100% {margin-left: -200%;}
+}
+@-webkit-keyframes a8 {
+    0% {margin-left: -100%;}
+    100% {margin-left: -200%;}
+}
+@-o-keyframes a8 {
+    0% {margin-left: -100%;}
+    100% {margin-left: -200%;}
+}
+@-ms-keyframes a8 {keyframes a8 {
+    0% {margin-left: -100%;}
+    100% {margin-left: -200%;}
+}
+    0% {margin-left: -100%;}
+    100% {margin-left: -200%;}
+}
+#zong{
+    height: 850px;
+    background: rgba(148,148,148,0.3);
+    position:absolute;
+    width:500%;
+    z-index: 9;
+}
+#zong img{
+    width: 20%;
+    height: 850px;
+    float: left;
+}
